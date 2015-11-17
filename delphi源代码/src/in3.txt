@@ -1,0 +1,8 @@
+var : n,ans : int ;
+begin
+   ans := 1;
+   while ( n > 0 ) do
+   begin
+   end ;
+   writeln(ans);
+end

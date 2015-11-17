@@ -1,0 +1,13 @@
+var : a,b,ans : int ; 
+begin
+  read(a,b);
+  if(a > b) then
+  begin
+	ans := 1;
+  end ;
+  else 
+  begin
+       ans := 0;
+  end;
+  write(a,b,ans);
+end

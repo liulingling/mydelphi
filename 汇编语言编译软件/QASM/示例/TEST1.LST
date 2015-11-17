@@ -1,0 +1,47 @@
+Turbo Assembler	 Version 4.1	    11/07/12 12:43:42	    Page 1
+F:\TDDOWN~1\QASM\QASM\示例\test1.ASM
+
+
+
+      1				     ;这是自动生成的代码模板
+      2	0000				   STACKS  SEGMENT   STACK	 ;堆栈段
+      3	0000  80*(????)				   DW	     128 DUP(?)	 ;注意这里只有128个字节
+      4	0100				   STACKS  ENDS
+      5	0000				    DATAS  SEGMENT		 ;数据段
+      6				     ;请在这里定义您的数据
+      7
+      8	0000				    DATAS  ENDS
+      9	0000				    CODES  SEGMENT		 ;代码段
+     10						   ASSUME    CS:CODES,DS:DATAS
+     11	0000  B8 0000s			   START:  MOV	     AX,DATAS	 ;初始化
+     12	0003  8E D8				   MOV	     DS,AX
+     13				     ;请在这里添加您的代码
+     14
+     15	0005  B8 4C00				   MOV	     AX,4C00H	 ;退出程序
+     16	0008  CD 21				   INT	     21H
+     17	000A				    CODES  ENDS
+     18						   END	     START
+Turbo Assembler	 Version 4.1	    11/07/12 12:43:42	    Page 2
+Symbol Table
+
+
+
+
+Symbol Name		Type   Value			   Cref	(defined at #)
+
+??DATE			Text   "11/07/12"
+??FILENAME		Text   "test1	"
+??TIME			Text   "12:43:42"
+??VERSION		Number 040A
+@CPU			Text   0101H
+@CURSEG			Text   CODES			   #2  #5  #9
+@FILENAME		Text   TEST1
+@WORDSIZE		Text   2			   #2  #5  #9
+START			Near   CODES:0000		   #11	18
+
+Groups & Segments	Bit Size Align	Combine	Class	   Cref	(defined at #)
+
+CODES			16  000A Para	none		   #9  10
+DATAS			16  0000 Para	none		   #5  10  11
+STACKS			16  0100 Para	Stack		   #2
+

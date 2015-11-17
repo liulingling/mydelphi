@@ -1,0 +1,8 @@
+var : a,b,c : int;
+begin
+    repeat
+        readln( c )
+        read( b )
+	a := b + c;
+    until a = 10 ;
+end

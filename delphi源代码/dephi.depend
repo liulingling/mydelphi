@@ -1,0 +1,72 @@
+# depslib dependency file v1.0
+1310550314 source:c:\documents and settings\administrator\桌面\dephi\code.cpp
+	"globals.h"
+	"code.h"
+	"symtab.h"
+
+1310616706 c:\documents and settings\administrator\桌面\dephi\globals.h
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1310547132 c:\documents and settings\administrator\桌面\dephi\code.h
+
+1310382556 c:\documents and settings\administrator\桌面\dephi\symtab.h
+	"globals.h"
+
+1310955078 source:c:\documents and settings\administrator\桌面\dephi\codegen.cpp
+	"globals.h"
+	"symtab.h"
+	"code.h"
+	"codegen.h"
+
+1310454208 c:\documents and settings\administrator\桌面\dephi\codegen.h
+
+1310624616 source:c:\documents and settings\administrator\桌面\dephi\parse.cpp
+	"globals.h"
+	"util.h"
+	"scanner.h"
+	"parse.h"
+	<stdio.h>
+	<stdlib.h>
+
+1310130236 c:\documents and settings\administrator\桌面\dephi\util.h
+
+1310130728 c:\documents and settings\administrator\桌面\dephi\scanner.h
+
+1310131434 c:\documents and settings\administrator\桌面\dephi\parse.h
+
+1310624648 source:c:\documents and settings\administrator\桌面\dephi\scanner.cpp
+	"globals.h"
+	"util.h"
+	"scanner.h"
+
+1310627994 source:c:\documents and settings\administrator\桌面\dephi\symtab.cpp
+	"globals.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"symtab.h"
+
+1310624666 source:c:\documents and settings\administrator\桌面\dephi\util.cpp
+	"globals.h"
+	"util.h"
+
+1310624840 source:c:\documents and settings\administrator\桌面\dephi\analyzer.cpp
+	"globals.h"
+	"symtab.h"
+	"analyzer.h"
+
+1310083980 c:\documents and settings\administrator\桌面\dephi\analyzer.h
+
+1311209374 source:c:\documents and settings\administrator\桌面\dephi\main.cpp
+	"globals.h"
+	"util.h"
+	"scanner.h"
+	"parse.h"
+	"analyzer.h"
+	"symtab.h"
+	"code.h"
+	"codegen.h"
+

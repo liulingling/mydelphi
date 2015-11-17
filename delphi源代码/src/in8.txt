@@ -1,0 +1,14 @@
+var : a,b,c : int ;
+begin
+   read(a,b);
+   c := a + b + (a - b) + (a * b);
+   write(c);
+   c := a - b;
+   write(c);
+   c := a * b;
+   write(c);
+   c := a / b;
+   write(c);
+   c := a % b;
+   write(c);
+end

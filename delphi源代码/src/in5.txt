@@ -1,0 +1,6 @@
+var a,b,ans;
+begin
+    read(a,b);
+    ans := a + b;
+    write(ans);
+end
